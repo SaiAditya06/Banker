@@ -5,7 +5,7 @@ import random
 import string
 
 class Bank:
-    def __init__(self, username=None, password=None,key_file_path="key.txt",passwords_will_save="login passwords money.txt"):
+    def __init__(self, username, password,key_file_path="key.txt",passwords_will_save="login passwords money.txt"):
         self.username = username
         self.password = password
         self.money = 0.0
